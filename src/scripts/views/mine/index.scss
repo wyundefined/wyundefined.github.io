@@ -1,0 +1,162 @@
+.top{
+    width: 100%;
+    height: 266px;
+    position: relative;
+   
+    .bagk{
+        width: 100%;
+        height: 100%;
+    }
+    .touxiang{
+        width: 160px;
+        height: 160px;
+        position: absolute;
+        left: 50px;
+        top:53px;
+    }
+    p{
+        color: #333;
+        font-size:30px;
+        position: absolute;
+        left:240px;
+        top:100px;
+    }
+    h4{
+        color: #666;
+        font-size:28px;
+        position: absolute;
+        left:230px;
+        top:150px;
+    }
+   .icon-shezhi-copy{
+       color: #999;
+       position: absolute;
+       top:98px;
+       right:30px;
+   }
+   .out{
+    color: #999;
+    position: absolute;
+    top:145px;
+    right:20px;
+   }
+}
+
+.money{
+    width: 100%;
+    height: 260px;
+    background:#fff;
+    margin-bottom:20px;
+    .recommend{
+        width: 100%;
+        height: 80px;
+       
+       margin:0px;
+      padding-top:25px;
+        span{
+            color: #333;
+            font-size: 32px;
+            display: inline-block;
+        }
+        .icon-wodezhanghu{
+            color: #ee5048;
+            font-size: 38px;
+            letter-spacing:8px;
+            display: inline-block;
+            margin:25px 30px 0px 40px;
+        }
+    }
+    .page{
+        width: 100%;
+        height: 140px;
+        display: flex;
+        
+        padding-bottom:30px;
+        li{
+            display: flex;
+            align-items:center;
+            flex-direction: column;
+            justify-content: space-around;
+            flex: 1;
+         p{
+             flex: 1;
+             color: #999;
+             font-size: 28px;
+             margin:0;
+         }
+            span{
+                color: #999;
+                font-size: 28px;
+                display:block;
+                flex: 1;
+                margin-top:30px;
+            }
+        }
+    }
+}
+
+.my{
+    background: #fff;
+    // padding-bottom:100px;
+    li{
+        width: 89%;
+        height: 122px;
+        padding: 0 40px 0 40px;
+      border-bottom:1px solid #eee;
+      position: relative;
+    }
+    i{
+        font-size:46px;
+        color: #ee5048;
+        line-height: 122px;
+    }
+    span{
+        color: #333;
+        font-size:34px;
+        line-height: 122px;
+        margin-left:20px;
+    }
+    .icon--{
+        font-size:40px;
+        color: #ee5048;
+        line-height: 122px;
+    }
+    .icon-wodetoupiao{
+        font-size:42px;
+        color: #ee5048;
+        line-height: 122px;
+    }
+    .icon-guanyuwomen{
+        font-size:40px;
+        color: #ee5048;
+        line-height: 122px;
+    }
+    .icon-xiaofeijilu{
+        font-size:50px;
+        color: #ee5048;
+        line-height: 122px;
+    }
+    .icon-iconfontyoujiantou-copy-copy-copy-copy{
+        color: #999;
+        font-size: 52px;
+        line-height: 122px;
+        position: absolute;
+        left:670px;
+        top:-.04px;
+ 
+   
+    }
+}
+.mine{
+    padding-bottom:80px;
+}
+.btn{
+    width: 89%;
+    height: 100px;
+    background: #fff;
+    padding: 0 40px 0 40px;
+    color: #c29b61;
+    font-size: 32px;
+    line-height: 100px;
+    text-align: center;
+}
